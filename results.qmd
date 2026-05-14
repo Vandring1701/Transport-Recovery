@@ -9,13 +9,13 @@ After the test, Zone 2 was identified as an outlier, with average values signifi
 In both plots, Zones 1 to 6 show only minor fluctuations year to year, indicating broadly consistent demand levels leading up to the pandemic. Outer zones (7 to 9) exhibit greater volatility, with noticeable dips in 2018 followed by recovery in 2019, suggesting more variability in ridership at peripheral stations. The annualised ridership varied between 90% and 103% of 2019 baseline, while weekday ridership varied between 94% and 103%, both suggested relatively stable demand.
 
 ::: {#fig-preannual}
-![](images/preannual.png)
+![](images/preannual.webp)
 
 **Pre-pandemic annualised ridership by fare zone, 2017–2019 (indexed to 2019)** Line chart of station-level ridership aggregated to fare zones and normalised to 2019 = 100, using annualised totals to measure pre-pandemic trends across zones. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-preweekday}
-![](images/preweekday.png)
+![](images/preweekday.webp)
 
 **Pre-pandemic weekday ridership by fare zone, 2017–2019 (indexed to 2019)** Line chart of station-level ridership aggregated to fare zones and normalised to 2019 = 100, using mean Tuesday–Thursday counts to measure weekday commuting patterns before the pandemic. Data source: TfL station entry/exit statistics.
 :::
@@ -31,13 +31,13 @@ The trajectory in both figures show a clear progression: 2021 marked by severe d
 In @fig-recweekdaybox, weekday recovery rates reveal a similar temporal pattern, but at 0.6 in 2021 and 1.5 of the baseline in 2022 and 2023, which are systematically higher values compared to annualised measures, reflecting stronger commuter demand on working days relative to weekends. Outer zones (particularly 7–9) consistently show higher weekday recovery rates, in some cases exceeding the 2019 baseline.
 
 ::: {#fig-recannualbox}
-![](images/recannualbox.png)
+![](images/recannualbox.webp)
 
 **Post-pandemic annualised recovery of London Underground ridership, 2021–2023** Boxplots show station-level recovery rates (2019 baseline = 1), grouped by fare zone. Recovery rate calculated as total annualised entries/exits in each year divided by 2019 levels, to illustrate how overall ridership recovery progressed across fare zones in the three years following the pandemic. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-recweekdaybox}
-![](images/recweekdaybox.png)
+![](images/recweekdaybox.webp)
 
 **Post-pandemic weekday recovery of London Underground ridership, 2021–2023** Boxplots show station-level recovery rates (2019 baseline = 1), grouped by fare zone. Recovery rate calculated as mean Tuesday–Thursday entries/exits per year divided by 2019 levels, to capture weekday commuting recovery patterns separately from annualised totals, highlighting differences across fare zones. Data source: TfL station entry/exit statistics.
 :::
@@ -49,13 +49,13 @@ From the boxplots above (@fig-recannualbox and @fig-recweekdaybox), it is obviou
 K-means of the annualised ridership recovery (@fig-ankmeans) showed that stagnant recovery stations concentrated in central London. Gradual recovery station is the most common type, appeared across the outer area of the city. Over recovery stations lowest proportion, and did not show significant pattern in distribution. The weekday outcome (@fig-wekmeans) followed similar condition. While some stations shifted between stagnant and gradual recovery profile, stations with over-recovered ridership remained majorly same between the two types of travel.
 
 ::: {#fig-ankmeans}
-![](images/ankmeans.png)
+![](images/ankmeans.webp)
 
 **K-means clustering of London Underground stations by annualised recovery profiles, 2021–2023** K-means clustering applied to station-level recovery rates in 2021, 2022, and 2023 (annualised, 2019 baseline = 1) to group stations with similar recovery trajectories. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-wekmeans}
-![](images/wekmeans.png) 
+![](images/wekmeans.webp) 
 
 **K-means clustering of London Underground stations by weekday recovery profiles, 2021–2023** K-means clustering applied to station-level weekday recovery rates in 2021, 2022, and 2023 (mean Tuesday–Thursday, 2019 baseline = 1) to group stations with similar weekday commuting recovery trajectories. Data source: TfL station entry/exit statistics.
 :::
@@ -97,19 +97,19 @@ The LISA results show that spatial clustering of annualised recovery rates is st
 @fig-anlisa23 shows in 2023, clustering almost disappears. Very few stations are identified as statistically significant, suggesting that annualised recovery rates had largely stabilised across the network and spatial variation in recovery was increasingly random.
 
 ::: {#fig-anlisa21}
-![](images/anlisa21.png)
+![](images/anlisa21.webp)
 
 **Local Moran’s I cluster map of annualised recovery rates, 2021** Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-anlisa22}
-![](images/anlisa22.png)
+![](images/anlisa22.webp)
 
 **Local Moran’s I cluster map of annualised recovery rates, 2022** Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-anlisa23}
-![](images/anlisa23.png)
+![](images/anlisa23.webp)
 
 **Local Moran’s I cluster map of annualised recovery rates, 2023** Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
 :::
@@ -125,19 +125,19 @@ The LISA results for weekday commuting recovery mirror the annualised patterns a
 @fig-welisa23 shows in 2023, clustering is almost entirely absent. Most stations display no significant association, reflecting a near-random distribution of weekday recovery intensity across the network.
 
 ::: {#fig-welisa21}
-![](images/welisa21.png)
+![](images/welisa21.webp)
 
 **Local Moran’s I cluster map of weekday recovery rates, 2021** Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-welisa22}
-![](images/welisa22.png)
+![](images/welisa22.webp)
 
 **Local Moran’s I cluster map of weekday recovery rates, 2022** Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-welisa23}
-![](images/welisa23.png)
+![](images/welisa23.webp)
 
 **Local Moran’s I cluster map of weekday recovery rates, 2023** Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
 :::
@@ -153,7 +153,7 @@ In 2022, the overall clustering weakens considerably. Only a small number of sig
 By 2023, clustering effects have nearly disappeared. Both k = 3 and k = 8 show only scattered clusters, including a few high–high stations in west London and occasional Low–Low stations, but no concentrated areas of association. This indicates that annualised ridership recovery had largely stabilised by 2023, with spatial patterns giving way to randomness across the network.
 
 ::: {#fig-3}
-![](images/3.png)
+![](images/3.webp)
 
 **Local Moran’s I cluster maps of annualised recovery rates, 2021–2023 (sensitivity test for neighbour definition)** Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) with k = 3 and k = 8 to compare local clustering outcomes across alternative neighbour definitions. Data source: TfL station entry/exit statistics.
 :::
@@ -167,7 +167,7 @@ In 2022, clustering becomes considerably weaker. Only a few significant clusters
 By 2023, the clustering patterns are minimal. Both k = 3 and k = 8 show only scattered high–high and low–low stations, with no concentration of clusters across the network. This suggests that weekday ridership recovery, like the annualised measure, had largely stabilised, with spatial variation giving way to randomness.
 
 ::: {#fig-4}
-![](images/4.png)
+![](images/4.webp)
 
 **Local Moran’s I cluster maps of weekday recovery rates, 2021–2023 (sensitivity test for neighbour definition)** Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Monday–Thursday) using k-nearest neighbour spatial weights (row-standardised) with k = 3 and k = 8 to compare local clustering outcomes across alternative neighbour definitions. Data source: TfL station entry/exit statistics.
 :::
@@ -181,13 +181,13 @@ By 2023, the clustering patterns are minimal. Both k = 3 and k = 8 show only sca
 The full size Getis-Ord $G_i^*$ maps of annualised (@fig-1) and weekday commuting (@fig-2) recovery hot spots and cold spots are included in the Appendix.
 
 ::: {#fig-1}
-![](images/1.png)
+![](images/1.webp)
 
 Local $G_i^*$ hot spot maps of annualised recovery rates, 2021–2023 Local Getis–Ord $G_i^*$ statistic applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify significant hot spots and cold spots of recovery intensity across three post-pandemic years. Data source: TfL station entry/exit statistics.
 :::
 
 ::: {#fig-2}
-![](images/2.png)
+![](images/2.webp)
 
 Local $G_i^*$ hot spot maps of weekday recovery rates, 2021–2023 Local Getis–Ord $G_i^*$ statistic applied to station-level weekday recovery rates (2019 baseline = 1, mean Monday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify significant hot spots and cold spots of weekday recovery intensity across three post-pandemic years. Data source: TfL station entry/exit statistics.
 :::
