@@ -1,0 +1,18 @@
+---
+title: "London Underground Commuting in the Aftermath of COVID-19: Recovery Trends and Spatial Patterns"
+author: "Duanduan Shen"
+format:
+  html: default
+---
+
+# Abstract
+
+The COVID-19 pandemic created an unprecedented disruption to urban mobility, forcing large-scale changes in travel behaviour that can be understood as a form of forced experimentation. While even short interruptions, such as strikes, have been shown to leave lasting effects on commuting, the pandemic’s impact on public transport in London remains debated. This dissertation examines how London Underground ridership was disrupted and subsequently recovered between 2017 and 2023, focusing on both temporal and spatial patterns.
+
+Annual entry and exit counts published by Transport for London (TfL) were used to calculate recovery rates relative to a 2019 baseline. Two measures of demand were distinguished: annualised ridership representing all-purpose travel, and weekday ridership (Monday–Thursday) as a proxy for commuting. Temporal patterns were assessed through descriptive analysis and k-means clustering, while spatial dependence was examined using Global Moran’s I, Local Moran’s I, and Getis–Ord Gi* statistics, with fare zones applied as a simple central–peripheral framework.
+
+Results show that 2021 marked the sharpest decline in Underground demand, with annualised ridership falling below 50% of pre-pandemic levels. Recovery accelerated from 2022 onwards, with weekday commuting ridership in some cases exceeding 2019 levels by 2023. Spatial analysis revealed persistent low–low clusters in central London, suggesting weaker recovery in the core, while high–high clusters were more dispersed along specific lines. However, overall spatial clustering diminished substantially after 2021, indicating a return to more random variation in recovery rates across the network.
+
+The study concludes that while disruption was most acute in 2021, the long-term impact of COVID-19 on Underground demand appears limited. The findings highlight both the vulnerability of central London commuting flows and the value of station-level data for understanding urban resilience.
+
+

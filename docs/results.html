@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>4 Results – London Underground Commuting in the Aftermath of COVID-19: Recovery Trends and Spatial Patterns</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./discussion.html" rel="next">
+<link href="./methodology.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-1201ea90b2d37d356a9b836b3a216ca6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./results.html"><span class="chapter-title">4 Results</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">London Underground Commuting in the Aftermath of COVID-19: Recovery Trends and Spatial Patterns</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">London Underground Commuting in the Aftermath of COVID-19: Recovery Trends and Spatial Patterns</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">1 Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literature_review.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">2 Literature reviews</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./methodology.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">3 Methodology</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./results.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">4 Results</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discussion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">5 Discussion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">6 Conclusion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bibliography.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bibliography</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#pre-pandemic-underground-ridership" id="toc-pre-pandemic-underground-ridership" class="nav-link active" data-scroll-target="#pre-pandemic-underground-ridership">4.1 Pre-pandemic underground ridership</a></li>
+  <li><a href="#temporal-experiments-of-recovery-rate" id="toc-temporal-experiments-of-recovery-rate" class="nav-link" data-scroll-target="#temporal-experiments-of-recovery-rate">4.2 Temporal experiments of recovery rate</a>
+  <ul class="collapse">
+  <li><a href="#median-of-recovery-rate" id="toc-median-of-recovery-rate" class="nav-link" data-scroll-target="#median-of-recovery-rate">4.2.1 Median of recovery rate</a></li>
+  <li><a href="#k-means" id="toc-k-means" class="nav-link" data-scroll-target="#k-means">4.2.2 K-means</a></li>
+  </ul></li>
+  <li><a href="#spatial-pattern-of-recovery-rate-global-morans-i" id="toc-spatial-pattern-of-recovery-rate-global-morans-i" class="nav-link" data-scroll-target="#spatial-pattern-of-recovery-rate-global-morans-i">4.3 Spatial pattern of recovery rate: Global Moran’s I</a></li>
+  <li><a href="#spatial-pattern-of-recovery-rate-local-morans-i" id="toc-spatial-pattern-of-recovery-rate-local-morans-i" class="nav-link" data-scroll-target="#spatial-pattern-of-recovery-rate-local-morans-i">4.4 Spatial pattern of recovery rate: Local Moran’s I</a>
+  <ul class="collapse">
+  <li><a href="#annualised-ridership-clustering" id="toc-annualised-ridership-clustering" class="nav-link" data-scroll-target="#annualised-ridership-clustering">4.4.1 Annualised ridership clustering</a></li>
+  <li><a href="#weekday-commuting-ridership-clustering" id="toc-weekday-commuting-ridership-clustering" class="nav-link" data-scroll-target="#weekday-commuting-ridership-clustering">4.4.2 Weekday commuting ridership clustering</a></li>
+  </ul></li>
+  <li><a href="#local-morans-i-sensitivity-check" id="toc-local-morans-i-sensitivity-check" class="nav-link" data-scroll-target="#local-morans-i-sensitivity-check">4.5 Local Moran’s I sensitivity check</a></li>
+  <li><a href="#getis-ord-g_i-statistics-as-supplement-of-local-morans-i" id="toc-getis-ord-g_i-statistics-as-supplement-of-local-morans-i" class="nav-link" data-scroll-target="#getis-ord-g_i-statistics-as-supplement-of-local-morans-i">4.6 Getis-Ord <span class="math inline">\(G_i^*\)</span> statistics as supplement of Local Moran’s I</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">4 Results</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="pre-pandemic-underground-ridership" class="level2">
+<h2 class="anchored" data-anchor-id="pre-pandemic-underground-ridership">4.1 Pre-pandemic underground ridership</h2>
+<p>Stations were grouped by TfL fare zones, which categorise London into concentric rings (Zone 1 in the centre through Zone 9 in the periphery). Pre-pandemic ridership trend was calculated with 2017-2019 data, with all zones converging to the 2019 baseline of 100. As stated previously, TfL’s definition of weekday in 2017 and 2018 included more days than 2019. Therefore, annualised trend showed comparisons of each year with the same definition, while in the weekday commuting ridership, 2017 and 2018 data were more inflated, and 2019 data were deflated.</p>
+<p>After the test, Zone 2 was identified as an outlier, with average values significantly higher than other zones in both annualised (<a href="#fig-preannual" class="quarto-xref">Figure&nbsp;<span>1</span></a>) and weekday plots (<a href="#fig-preweekday" class="quarto-xref">Figure&nbsp;<span>2</span></a>). To avoid distortion, Zone 2 was excluded from the main figures, while the original plots including Zone 2 are provided in the Appendix.</p>
+<p>In both plots, Zones 1 to 6 show only minor fluctuations year to year, indicating broadly consistent demand levels leading up to the pandemic. Outer zones (7 to 9) exhibit greater volatility, with noticeable dips in 2018 followed by recovery in 2019, suggesting more variability in ridership at peripheral stations. The annualised ridership varied between 90% and 103% of 2019 baseline, while weekday ridership varied between 94% and 103%, both suggested relatively stable demand.</p>
+<div id="fig-preannual" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-preannual-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/preannual.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-preannual-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: <strong>Pre-pandemic annualised ridership by fare zone, 2017–2019 (indexed to 2019)</strong> Line chart of station-level ridership aggregated to fare zones and normalised to 2019 = 100, using annualised totals to measure pre-pandemic trends across zones. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-preweekday" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-preweekday-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/preweekday.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-preweekday-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: <strong>Pre-pandemic weekday ridership by fare zone, 2017–2019 (indexed to 2019)</strong> Line chart of station-level ridership aggregated to fare zones and normalised to 2019 = 100, using mean Tuesday–Thursday counts to measure weekday commuting patterns before the pandemic. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="temporal-experiments-of-recovery-rate" class="level2">
+<h2 class="anchored" data-anchor-id="temporal-experiments-of-recovery-rate">4.2 Temporal experiments of recovery rate</h2>
+<section id="median-of-recovery-rate" class="level3">
+<h3 class="anchored" data-anchor-id="median-of-recovery-rate">4.2.1 Median of recovery rate</h3>
+<p>The trajectory in both figures show a clear progression: 2021 marked by severe disruption, 2022 by partial recovery, and 2023 by near-normalisation of ridership patterns.</p>
+<p><a href="#fig-recannualbox" class="quarto-xref">Figure&nbsp;<span>3</span></a> shows a sharp decline in 2021 across all fare zones for annualised recovery rates, with median values generally below 0.5, indicating ridership remained less than half of pre-pandemic levels. By 2022, recovery strengthened substantially, with most zones reaching 0.7–0.9 of 2019 levels, though still falling short of full recovery. In 2023, annualised ridership stabilised close to pre-pandemic levels, with interquartile ranges clustered around 0.9–1.0, though central zones (1–2) continued to show slightly lower recovery relative to outer zones.</p>
+<p>In <a href="#fig-recweekdaybox" class="quarto-xref">Figure&nbsp;<span>4</span></a>, weekday recovery rates reveal a similar temporal pattern, but at 0.6 in 2021 and 1.5 of the baseline in 2022 and 2023, which are systematically higher values compared to annualised measures, reflecting stronger commuter demand on working days relative to weekends. Outer zones (particularly 7–9) consistently show higher weekday recovery rates, in some cases exceeding the 2019 baseline.</p>
+<div id="fig-recannualbox" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-recannualbox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/recannualbox.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-recannualbox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: <strong>Post-pandemic annualised recovery of London Underground ridership, 2021–2023</strong> Boxplots show station-level recovery rates (2019 baseline = 1), grouped by fare zone. Recovery rate calculated as total annualised entries/exits in each year divided by 2019 levels, to illustrate how overall ridership recovery progressed across fare zones in the three years following the pandemic. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-recweekdaybox" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-recweekdaybox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/recweekdaybox.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-recweekdaybox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: <strong>Post-pandemic weekday recovery of London Underground ridership, 2021–2023</strong> Boxplots show station-level recovery rates (2019 baseline = 1), grouped by fare zone. Recovery rate calculated as mean Tuesday–Thursday entries/exits per year divided by 2019 levels, to capture weekday commuting recovery patterns separately from annualised totals, highlighting differences across fare zones. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="k-means" class="level3">
+<h3 class="anchored" data-anchor-id="k-means">4.2.2 K-means</h3>
+<p>From the boxplots above (<a href="#fig-recannualbox" class="quarto-xref">Figure&nbsp;<span>3</span></a> and <a href="#fig-recweekdaybox" class="quarto-xref">Figure&nbsp;<span>4</span></a>), it is obvious that the values of recovery rate varied in a wide range, between 40% and 180%. Therefore, in K-means test, stations were categorised into 3 groups of different profiles. The first group represented overall low recovery, including stations that never returned to pre-pandemic levels and remained below baseline. The second group was the stations which experienced steady recovery of ridership over the years, including stations with medium recovery rate and nearly reached baseline level by the end of the study time period. The third group was formed by stations that exceeded pre-pandemic ridership by 2023, indicating over-recovery comparing with the baseline.</p>
+<p>K-means of the annualised ridership recovery (<a href="#fig-ankmeans" class="quarto-xref">Figure&nbsp;<span>5</span></a>) showed that stagnant recovery stations concentrated in central London. Gradual recovery station is the most common type, appeared across the outer area of the city. Over recovery stations lowest proportion, and did not show significant pattern in distribution. The weekday outcome (<a href="#fig-wekmeans" class="quarto-xref">Figure&nbsp;<span>6</span></a>) followed similar condition. While some stations shifted between stagnant and gradual recovery profile, stations with over-recovered ridership remained majorly same between the two types of travel.</p>
+<div id="fig-ankmeans" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ankmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/ankmeans.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ankmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: <strong>K-means clustering of London Underground stations by annualised recovery profiles, 2021–2023</strong> K-means clustering applied to station-level recovery rates in 2021, 2022, and 2023 (annualised, 2019 baseline = 1) to group stations with similar recovery trajectories. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-wekmeans" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wekmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/wekmeans.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wekmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: <strong>K-means clustering of London Underground stations by weekday recovery profiles, 2021–2023</strong> K-means clustering applied to station-level weekday recovery rates in 2021, 2022, and 2023 (mean Tuesday–Thursday, 2019 baseline = 1) to group stations with similar weekday commuting recovery trajectories. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="spatial-pattern-of-recovery-rate-global-morans-i" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-pattern-of-recovery-rate-global-morans-i">4.3 Spatial pattern of recovery rate: Global Moran’s I</h2>
+<p>Global Moran’s I results reveal a marked temporal shift in the spatial structure of recovery rates.</p>
+<p>In 2021, both annualised (<a href="#tbl-ankmeans" class="quarto-xref">Table&nbsp;<span>1</span></a>) and weekday (<a href="#tbl-wekmeans" class="quarto-xref">Table&nbsp;<span>2</span></a>) measures show strong positive autocorrelation, with Moran’s I values significantly greater than zero (p &lt; 0.001) across all tested neighbour definitions (k = 3, 5, 8). This indicates that stations with similar recovery levels clustered together in the immediate aftermath of the pandemic. By contrast, results for 2022 and 2023 show Moran’s I values close to zero and statistically insignificant across all k values, suggesting that recovery rates became spatially random in later years. No system-wide clustering effects were detectable during this period.</p>
+<p>The consistency of outcomes across multiple neighbour definitions confirms that the observed shift—from clustered recovery in 2021 to spatial randomness in 2022–2023—is robust and not dependent on the choice of spatial parameter.</p>
+<div id="tbl-ankmeans" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ankmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: <strong>Global Moran’s I statistics for annualised recovery rates across different neighbour definitions (k = 3, 5, 8), 2021–2023</strong> Global Moran’s I calculated from station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to test for global spatial autocorrelation in recovery patterns. Data source: TfL station entry/exit statistics.
+</figcaption>
+<div aria-describedby="tbl-ankmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>k=3</th>
+<th>k=5</th>
+<th>k=8</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2021</td>
+<td>0.354 (p&lt;0.001)</td>
+<td>0.340 (p&lt;0.001)</td>
+<td>0.310 (p&lt;0.001)</td>
+<td>Strong positive autocorrelation (clustering)</td>
+</tr>
+<tr class="even">
+<td>2022</td>
+<td>–0.069 (ns)</td>
+<td>–0.017 (ns)</td>
+<td>0.005 (ns)</td>
+<td>No spatial autocorrelation</td>
+</tr>
+<tr class="odd">
+<td>2023</td>
+<td>–0.088 (ns)</td>
+<td>–0.049 (ns)</td>
+<td>–0.022 (ns)</td>
+<td>No spatial autocorrelation</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-wekmeans" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-wekmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: <strong>Global Moran’s I statistics for weekday recovery rates across different neighbour definitions (k = 3, 5, 8), 2021–2023</strong> Global Moran’s I calculated from station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to test for global spatial autocorrelation in weekday commuting recovery. Data source: TfL station entry/exit statistics.
+</figcaption>
+<div aria-describedby="tbl-wekmeans-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>k=3</th>
+<th>k=5</th>
+<th>k=8</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2021</td>
+<td>0.387 (p&lt;0.001)</td>
+<td>0.361 (p&lt;0.001)</td>
+<td>0.337 (p&lt;0.001)</td>
+<td>Strong positive autocorrelation (clustering)</td>
+</tr>
+<tr class="even">
+<td>2022</td>
+<td>–0.034 (ns)</td>
+<td>0.006 (ns)</td>
+<td>0.025 (ns)</td>
+<td>No spatial autocorrelation</td>
+</tr>
+<tr class="odd">
+<td>2023</td>
+<td>–0.026 (ns)</td>
+<td>–0.009 (ns)</td>
+<td>0.013 (ns)</td>
+<td>No spatial autocorrelation</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="spatial-pattern-of-recovery-rate-local-morans-i" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-pattern-of-recovery-rate-local-morans-i">4.4 Spatial pattern of recovery rate: Local Moran’s I</h2>
+<section id="annualised-ridership-clustering" class="level3">
+<h3 class="anchored" data-anchor-id="annualised-ridership-clustering">4.4.1 Annualised ridership clustering</h3>
+<p>The LISA results show that spatial clustering of annualised recovery rates is strongest in 2021, but weakens markedly in subsequent years, almost disappearing by 2023.</p>
+<p><a href="#fig-anlisa21" class="quarto-xref">Figure&nbsp;<span>7</span></a> shows in 202, significant Low–Low clusters are concentrated in central London, where stations consistently under-recovered. At the same time, a smaller number of High–High clusters appear on some peripheral lines, indicating outer stations with relatively higher recovery compared to their neighbours.</p>
+<p><a href="#fig-anlisa22" class="quarto-xref">Figure&nbsp;<span>8</span></a> shows by 2022, the clustering effect reduces substantially. Only a few clusters remain statistically significant, mostly at peripheral locations or isolated stations, while the majority of stations display no detectable spatial association.</p>
+<p><a href="#fig-anlisa23" class="quarto-xref">Figure&nbsp;<span>9</span></a> shows in 2023, clustering almost disappears. Very few stations are identified as statistically significant, suggesting that annualised recovery rates had largely stabilised across the network and spatial variation in recovery was increasingly random.</p>
+<div id="fig-anlisa21" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-anlisa21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/anlisa21.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-anlisa21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: <strong>Local Moran’s I cluster map of annualised recovery rates, 2021</strong> Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-anlisa22" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-anlisa22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/anlisa22.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-anlisa22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: <strong>Local Moran’s I cluster map of annualised recovery rates, 2022</strong> Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-anlisa23" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-anlisa23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/anlisa23.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-anlisa23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: <strong>Local Moran’s I cluster map of annualised recovery rates, 2023</strong> Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="weekday-commuting-ridership-clustering" class="level3">
+<h3 class="anchored" data-anchor-id="weekday-commuting-ridership-clustering">4.4.2 Weekday commuting ridership clustering</h3>
+<p>The LISA results for weekday commuting recovery mirror the annualised patterns above: clustering is strong in 2021, weakens in 2022, and largely disappears by 2023.</p>
+<p><a href="#fig-welisa21" class="quarto-xref">Figure&nbsp;<span>10</span></a> shows in 2021, central London stations show clear low–low clustering, while some outer London areas exhibit high–high clustering. This indicates uneven recovery, with persistently weak commuter demand in the core and relatively stronger recovery at the periphery.</p>
+<p><a href="#fig-welisa22" class="quarto-xref">Figure&nbsp;<span>11</span></a> shows in 2022, spatial clustering is much reduced. Only a few isolated high–high and low–low stations remain statistically significant, suggesting that weekday recovery patterns were becoming less spatially dependent.</p>
+<p><a href="#fig-welisa23" class="quarto-xref">Figure&nbsp;<span>12</span></a> shows in 2023, clustering is almost entirely absent. Most stations display no significant association, reflecting a near-random distribution of weekday recovery intensity across the network.</p>
+<div id="fig-welisa21" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-welisa21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/welisa21.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-welisa21-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: <strong>Local Moran’s I cluster map of weekday recovery rates, 2021</strong> Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-welisa22" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-welisa22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/welisa22.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-welisa22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: <strong>Local Moran’s I cluster map of weekday recovery rates, 2022</strong> Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-welisa23" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-welisa23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/welisa23.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-welisa23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: <strong>Local Moran’s I cluster map of weekday recovery rates, 2023</strong> Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Tuesday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify local clusters of high–high, low–low, and spatial outliers. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="local-morans-i-sensitivity-check" class="level2">
+<h2 class="anchored" data-anchor-id="local-morans-i-sensitivity-check">4.5 Local Moran’s I sensitivity check</h2>
+<p>The LISA results in <a href="#fig-3" class="quarto-xref">Figure&nbsp;<span>13</span></a> show a clear decline in spatial clustering of annualised recovery rates from 2021 to 2023, with patterns becoming progressively weaker and more spatially scattered, full size LISA maps of the annualised recovery are included in the Appendix.</p>
+<p>In 2021, strong clustering is visible, particularly Low–Low clusters concentrated in central London. At the same time, several High–High clusters appear along outer corridors, most clearly on the eastern and western sections of the network. These patterns remain broadly consistent across both neighbour definitions, though the k = 8 specification identifies a wider spread of clusters compared to k = 3.</p>
+<p>In 2022, the overall clustering weakens considerably. Only a small number of significant clusters are detected, mostly isolated Low–Low or High–High stations at the periphery. Differences between k = 3 and k = 8 are more pronounced here, with the larger k identifying slightly more central low–low stations.</p>
+<p>By 2023, clustering effects have nearly disappeared. Both k = 3 and k = 8 show only scattered clusters, including a few high–high stations in west London and occasional Low–Low stations, but no concentrated areas of association. This indicates that annualised ridership recovery had largely stabilised by 2023, with spatial patterns giving way to randomness across the network.</p>
+<div id="fig-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/3.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: <strong>Local Moran’s I cluster maps of annualised recovery rates, 2021–2023 (sensitivity test for neighbour definition)</strong> Local Moran’s I (LISA) applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) with k = 3 and k = 8 to compare local clustering outcomes across alternative neighbour definitions. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<p>In <a href="#fig-4" class="quarto-xref">Figure&nbsp;<span>14</span></a>, the weekday clustering results reveal a strong spatial pattern in 2021 that weakens substantially in subsequent years, broadly consistent with the annualised outcomes but showing some differences in the location and extent of clusters. full size LISA maps of the weekday commuting recovery are included in the Appendix.</p>
+<p>In 2021, weekday recovery rates form distinct clusters, with pronounced low–low associations concentrated in central London. At the same time, multiple high–high clusters appear along outer corridors, particularly in the east, indicating areas of consistently higher weekday recovery. The use of k = 8 expands these clusters, capturing a broader stretch of peripheral high–high stations compared with the more localised k = 3 specification.</p>
+<p>In 2022, clustering becomes considerably weaker. Only a few significant clusters remain, mainly in peripheral or isolated stations. The k = 8 definition highlights slightly more low–low clusters near the centre, but overall the spatial association is much reduced compared to 2021.</p>
+<p>By 2023, the clustering patterns are minimal. Both k = 3 and k = 8 show only scattered high–high and low–low stations, with no concentration of clusters across the network. This suggests that weekday ridership recovery, like the annualised measure, had largely stabilised, with spatial variation giving way to randomness.</p>
+<div id="fig-4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/4.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;14: <strong>Local Moran’s I cluster maps of weekday recovery rates, 2021–2023 (sensitivity test for neighbour definition)</strong> Local Moran’s I (LISA) applied to station-level weekday recovery rates (2019 baseline = 1, mean Monday–Thursday) using k-nearest neighbour spatial weights (row-standardised) with k = 3 and k = 8 to compare local clustering outcomes across alternative neighbour definitions. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="getis-ord-g_i-statistics-as-supplement-of-local-morans-i" class="level2">
+<h2 class="anchored" data-anchor-id="getis-ord-g_i-statistics-as-supplement-of-local-morans-i">4.6 Getis-Ord <span class="math inline">\(G_i^*\)</span> statistics as supplement of Local Moran’s I</h2>
+<p><a href="#fig-1" class="quarto-xref">Figure&nbsp;<span>15</span></a> shows the trend of annualised recovery hot/cold spots indicated by <span class="math inline">\(G_i^*\)</span>. In 2021, the <span class="math inline">\(G_i^*\)</span> analysis identifies strong clustering of recovery intensity, with hot spots concentrated in central and eastern London and cold spots in the west. This indicates a marked spatial differentiation in ridership recovery during the immediate aftermath of the pandemic. By 2022, this pattern weakens considerably. Only a few isolated hot spots remain in central and western areas, while most stations show no significant clustering, suggesting that spatial heterogeneity diminished after the initial rebound phase. In 2023, clustering is largely absent, with only scattered hot and cold spots detected. This suggests that recovery dynamics had evened out across the network, reinforcing the Global Moran’s I finding that spatial autocorrelation was no longer present.</p>
+<p><a href="#fig-2" class="quarto-xref">Figure&nbsp;<span>16</span></a> shows the trend of weekday recovery hot/cold spots indicated by <span class="math inline">\(G_i^*\)</span>. In 2021, the weekday <span class="math inline">\(G_i^*\)</span> map shows clear clusters of hot spots along several suburban lines and cold spots concentrated in central London, indicating a spatially uneven intensity of weekday recovery immediately after the pandemic. In 2022, the spatial clustering largely dissipates, with only a few marginal hot spots visible on the western edge of the network and faint cold spots in central London, suggesting a weakening of spatial dependence. In 2023, the pattern remains fragmented with isolated hot spots scattered across the periphery and only small cold spots in central areas, further supporting the observation that weekday recovery rates had stabilised and no longer exhibited significant spatial clustering.</p>
+<p>The full size Getis-Ord <span class="math inline">\(G_i^*\)</span> maps of annualised (<a href="#fig-1" class="quarto-xref">Figure&nbsp;<span>15</span></a>) and weekday commuting (<a href="#fig-2" class="quarto-xref">Figure&nbsp;<span>16</span></a>) recovery hot spots and cold spots are included in the Appendix.</p>
+<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;15: Local <span class="math inline">\(G_i^*\)</span> hot spot maps of annualised recovery rates, 2021–2023 Local Getis–Ord <span class="math inline">\(G_i^*\)</span> statistic applied to station-level annualised recovery rates (2019 baseline = 1) using k-nearest neighbour spatial weights (row-standardised) to identify significant hot spots and cold spots of recovery intensity across three post-pandemic years. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+<div id="fig-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16: Local <span class="math inline">\(G_i^*\)</span> hot spot maps of weekday recovery rates, 2021–2023 Local Getis–Ord <span class="math inline">\(G_i^*\)</span> statistic applied to station-level weekday recovery rates (2019 baseline = 1, mean Monday–Thursday) using k-nearest neighbour spatial weights (row-standardised) to identify significant hot spots and cold spots of weekday recovery intensity across three post-pandemic years. Data source: TfL station entry/exit statistics.
+</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./methodology.html" class="pagination-link" aria-label="3 Methodology">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">3 Methodology</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./discussion.html" class="pagination-link" aria-label="5 Discussion">
+        <span class="nav-page-text"><span class="chapter-title">5 Discussion</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

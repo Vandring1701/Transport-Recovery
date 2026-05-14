@@ -1,0 +1,64 @@
+# 3 Methodology
+
+## 3.1 Data Description
+
+This study uses TfL station level entry and exit counts for 2017–2023. Datasets were obtained from TfL’s Open Data portal (Transport for London, 2025). Only London Underground stations are included, which means stations in London Overground, Elizabeth Line and National Rail services are filtered out. Entry and exit counts are combined together in this study to represent the total underground usage. TfL categorised the ridership data to groups in order to show different travel purposes, however, their definition of weekday varied over the years, which is summarised in @tbl-definition below.
+
+| Years     | TfL weekday definition | Notes for this study                        |
+|-----------|------------------------|---------------------------------------------|
+| 2017–2018 | Monday–Friday          | Used for pre-pandemic ridership trends      |
+| 2019–2021 | Monday–Thursday        | Core years for recovery calculation         |
+| 2022–2023 | Tuesday–Thursday       | More precise in the definition of commuting |
+
+: **TfL weekday definitions in the entry/exit dataset, 2017–2023** The table lists the categories applied by TfL for different years and notes their relevance for this study. {#tbl-definition}
+
+## 3.2 Recovery Rate
+
+### 3.2.1 Method design
+
+Measures of the recovery in London Underground ridership is calculated through a recovery rate index. The design follows a simple but transparent logic: post-pandemic ridership at each station is compared against a pre-pandemic baseline (2019). By standardising post-pandemic flows relative to the baseline, differences across both time and space can be meaningfully compared. The method can be represented by the equation:
+
+$$
+\textit{RecoveryRate}_{i,t}^{\textit{Annual}} = \frac{\textit{AnnualUsage}_{i,t}}{\textit{AnnualUsage}_{i,2019}}
+$$
+
+Where:
+
+$i$ = station
+
+$t$ = year (2021–2023)
+
+### 3.2.2 Recovery Rate of commuting
+
+Commuting usage of public transport is distinguished from other types of demand by selecting most commuting heavy days in the week. Traditionally, Monday–Friday ridership is considered commuting based. Though in recent transport research, Tuesday–Thursday are often considered the most stable representation of commuting activity, since Mondays are affected by late starts and hybrid working, while Fridays show higher leisure-related travel and lower commuting intensity (Transport for London, 2024; Sonoma County Transportation Authority, 2020). This study agrees with this rationale, however, the choice of weekdays is ultimately constrained by TfL’s data availability.
+
+As shown above, TfL updated their weekday definition (Table 1) according to the most advanced studies. To ensure consistency and comparability through the study time period, weekday ridership in 2022 and 2023 adopted earlier definition, by combing counts of Friday usage to Midweek usage. Thus, while Tuesday–Thursday would ideally be the most precise commuting baseline, the study employs Monday–Thursday as commuting days in datasets from 2019 to 2023. The commuting recovery index, represented by weekday usage, is calculated by:
+
+$$
+\textit{RecoveryRate}_{i,t}^{\textit{Weekday}} = \frac{\textit{WeekdayUsage}_{i,t}}{\textit{WeekdayUsage}_{i,2019}}
+$$
+Where:
+
+$WeekdayUsage$ = Monday to Thursday entries + exits
+
+## 3.3 Temporal analysis method: K-means
+
+After calculating recovery rates, pre-pandemic ridership was calculated using the same logic, with 2019 as the baseline. The study then analysed Underground ridership before the outbreak with descriptive analysis to identify its trend, providing context and supplementing the understanding of COVID’s impact on Underground usage.
+
+The temporal shift of post-pandemic recovery was examined from different perspectives. First, exploratory analysis was used to visualise the overall distribution and yearly variation of the recovery trend. Second, k-means clustering was applied to group stations by similarity in their three-year recovery trajectories. 
+
+K-means is an unsupervised classification algorithm that partitions data into k groups, with each observation assigned to the nearest cluster centroid so that within-group variation is minimised (MacQueen, 1967; Jain, 2010). This approach is widely used in exploratory data analysis to reveal latent patterns without requiring pre-defined categories. K-means was chosen here because the dataset represents short recovery trajectories, with only three annual values (2021, 2022, and 2023) recorded for each station. In this context, each station can be represented as a three-dimensional vector in Euclidean space (Hartigan and Wong, 1979), making k-means clustering particularly well-suited to capture similarities and differences in recovery profiles. Unlike more complex trajectory-based clustering or machine learning approaches, which require longer time series or training datasets, k-means provides a transparent and computationally efficient method to classify stations into distinct groups (Warren Liao, 2005; Xu and Wunsch, 2005). Its reliance on distance-based similarity ensures that stations following comparable recovery patterns are grouped together, while its simplicity supports interpretability in the context of exploratory transport analysis.
+
+In this study, k-means enabled the identification of distinct recovery profiles among Underground stations, distinguishing between those that remained stagnant, those that recovered gradually, and those that exceeded pre-pandemic levels by 2023. The number of clusters was set to three, providing a balance between interpretability and explanatory power. Together, these approaches offered both distributional insight and trajectory-based station groupings prior to the application of formal spatial analysis.
+
+## 3.4 Spatial analysis Method: Moran’s I
+
+As discussed before in Section 2.4 Spatial analysis of ridership recovery, both Global Moran’s I and LISA were used in this study, in order to identify if the recovery profiles of Underground stations show clustering spatially, and where such clusters appear across London.
+
+Global Moran’s I was first applied to provide a system-wide summary of spatial autocorrelation. A positive Moran’s I indicates that stations with similar recovery values are clustered together, whereas a negative Moran’s I suggests spatial outliers where dissimilar values are located close to one another. Statistical significance was assessed with p-values (set at < 0.001), ensuring that observed clustering was unlikely to arise from random spatial distribution.
+
+Next, Local Moran’s I calculation was applied to the recovery rate of each underground station, forming the point-based data for cluster analysis. Local Moran’s I requires the definition of neighbours, since clustering is identified by comparing the value of one observation with those of its surrounding observations. The resulting clusters are categorised into High–High, Low–Low, High–Low, and Low–High. While High–High and Low–Low are clusters with higher or lower recovery rate surrounded by similar stations, High–Low are clusters with high recovery rate surrounded by low rates, and Low–High means low rate clusters surrounded by high rates.
+
+The choice of how to define neighbours depends on the spatial structure of the dataset. Studies working with areal-based data have defined neighbours by fixed distance bands (Zhang et al., 2008; Zhou et al., 2023) or by shared spatial boundaries (Yuan et al., 2018). For point data, this study used the k-nearest neighbour method, which defines clustering by comparing each station with its k closest neighbours. As a result, the value of k directly influenced the formation of clustering in Local Moran’s I test. In London transport analysis, there was no existing study that suggested a suitable k value for the area, nor had standard way to define k been specified. Therefore, to ensure the robustness of Local Moran’s I result in this study, multiple k values were then selected and tested. In this study, the default k value was set at 5.
+
+Finally, Getis–Ord Gi* statistics were also applied to the recovery rates. In this study, the k value for neighbour in Gi* was 5 as well. Whereas Local Moran’s I identifies both clusters and outliers, Gi* specifically highlights statistically significant clusters of unusually high recovery “hot spots” and clusters of unusually low recovery “cold spots”. This complemented the findings of Local Moran’s I, and verifying its validity with a different approach.

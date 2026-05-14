@@ -1,0 +1,81 @@
+# Bibliography
+
+Allen, C.R. et al. (2016) ‘Quantifying spatial resilience’, Journal of Applied Ecology, 53(3), pp. 625–635. Available at: <https://doi.org/10.1111/1365-2664.12634>.
+
+Anselin, L. (1995) ‘Local Indicators of Spatial Association—LISA’, Geographical Analysis, 27(2), pp. 93–115. Available at: <https://doi.org/10.1111/j.1538-4632.1995.tb00338.x>.
+
+Balbontin, C., Hensher, D.A. and Beck, M.J. (2022) ‘Advanced modelling of commuter choice model and work from home during COVID-19 restrictions in Australia’, Transportation Research Part E: Logistics and Transportation Review, 162, p. 102718. Available at: <https://doi.org/10.1016/j.tre.2022.102718>.
+
+Bansal, P. et al. (2021) ‘Face masks, vaccination rates and low crowding drive the demand for the London Underground during the COVID-19 pandemic’. arXiv. Available at: <https://doi.org/10.48550/arXiv.2107.02394>.
+
+Bansal, P. et al. (2022) ‘Preferences for using the London Underground during the COVID-19 pandemic’, Transportation Research Part A: Policy and Practice, 160, pp. 45–60. Available at: <https://doi.org/10.1016/j.tra.2022.03.033>.
+
+Batty, M. et al. (2020) ‘London in Lockdown: Mobility in the Pandemic City’. arXiv. Available at: <https://doi.org/10.48550/arXiv.2011.07165>.
+
+Batty, M. (2023) ‘The post-pandemic world: Are big cities hollowing out?’, Environment and Planning B: Urban Analytics and City Science, 50(6), pp. 1409–1412. Available at: <https://doi.org/10.1177/23998083231188188>.
+
+DiNardo, J. (2008) ‘Natural Experiments and Quasi-Natural Experiments’, in The New Palgrave Dictionary of Economics. Palgrave Macmillan, London, pp. 1–12. Available at: <https://doi.org/10.1057/978-1-349-95121-5_2006-1\>.
+
+Dunning, T. (2012) Natural Experiments in the Social Sciences: A Design-Based Approach. Cambridge: Cambridge University Press (Strategies for Social Inquiry). Available at: <https://doi.org/10.1017/CBO9781139084444\>.
+
+Fischer, J., Nelson, T. and Winters, M. (2022) ‘Riding through the pandemic: Using Strava data to monitor the impacts of COVID-19 on spatial patterns of bicycling’, Transportation Research Interdisciplinary Perspectives, 15, p. 100667. Available at: <https://doi.org/10.1016/j.trip.2022.100667\>.
+
+Forouhar, A. et al. (2025) ‘Transit-driven resilience: Unraveling post-COVID-19 urban recovery dynamics.’, Journal of Transport Geography, 128, p. 104327. Available at: <https://doi.org/10.1016/j.jtrangeo.2025.104327\>.
+
+Gao, X., Chen, H. and Haworth, J. (2023) ‘A spatiotemporal analysis of the impact of lockdown and coronavirus on London’s bicycle hire scheme: from response to recovery to a new normal’, Geo-spatial Information Science, 26(4), pp. 664–684. Available at: <https://doi.org/10.1080/10095020.2023.2233570\>.
+
+Getis, A. and Ord, J.K. (1992) ‘The Analysis of Spatial Association by Use of Distance Statistics’, Geographical Analysis, 24(3), pp. 189–206. Available at: <https://doi.org/10.1111/j.1538-4632.1992.tb00261.x\>.
+
+Getis, A. and Ord, J.K. (1996) Local spatial statistics: An overview. In: Longley, P. and Batty, M. (eds.) Spatial Analysis: Modelling in a GIS Environment. Cambridge: Geoinformation International, pp. 261–277.
+
+Hartigan, J.A. and Wong, M.A. (1979) ‘Algorithm AS 136: A K-Means Clustering Algorithm’, Journal of the Royal Statistical Society. Series C (Applied Statistics), 28(1), pp. 100–108. Available at: <https://doi.org/10.2307/2346830\>.
+
+Jain, A.K. (2010) ‘Data clustering: 50 years beyond K-means’, Pattern Recognition Letters, 31(8), pp. 651–666. Available at: <https://doi.org/10.1016/j.patrec.2009.09.011\>.
+
+Jenelius, E. and Cebecauer, M. (2020) ‘Impacts of COVID-19 on public transport ridership in Sweden: Analysis of ticket validations, sales and passenger counts’, Transportation Research Interdisciplinary Perspectives, 8, p. 100242. Available at: <https://doi.org/10.1016/j.trip.2020.100242\>.
+
+Killick, R. and Eckley, I.A. (2014) ‘changepoint: An R Package for Changepoint Analysis’, Journal of Statistical Software, 58(1), pp. 1–19. Available at: <https://doi.org/10.18637/jss.v058.i03\>.
+
+Larcom, S., Rauch, F. and Willems, T. (2017) ‘The Benefits of Forced Experimentation: Striking Evidence from the London Underground Network\*’, The Quarterly Journal of Economics, 132(4), pp. 2019–2055. Available at: <https://doi.org/10.1093/qje/qjx020\>.
+
+MacQueen, J. (1967) ‘Some methods for classification and analysis of multivariate observations’, in Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Statistics. University of California Press, pp. 281–298. Available at: <https://projecteuclid.org/ebooks/berkeley-symposium-on-mathematical-statistics-and-probability/Proceedings-of-the-Fifth-Berkeley-Symposium-on-Mathematical-Statistics-and/chapter/Some-methods-for-classification-and-analysis-of-multivariate-observations/bsmsp/1200512992\>.
+
+Moran, P.A.P. (1948) ‘The Interpretation of Statistical Maps’, Journal of the Royal Statistical Society. Series B (Methodological), 10(2), pp. 243–251.
+
+Murcio, R., Aslam, N.S. and Barros, J. (2023) ‘Post-pandemic mobility patterns in London’. arXiv. Available at: <https://doi.org/10.48550/arXiv.2307.10344\>.
+
+Roth, C. et al. (2011) ‘Structure of urban movements: polycentric activity and entangled hierarchical flows’, PLoS ONE, 6(1), p. e15923. Available at: <https://doi.org/10.1371/journal.pone.0015923\>.
+
+Sonoma County Transportation Authority (2020) Sonoma County Travel Behavior Study: Final Report. \[Report\]. Santa Rosa, CA: SCTA. Available at: <https://scta.ca.gov/wp-content/uploads/2022/02/Sonoma_TBS_2-7-2020_web.pdf>
+
+Susilo, Y.O. and Cats, O. (2014) ‘Exploring key determinants of travel satisfaction for multi-modal trips by different traveler groups’, Transportation Research Part A: Policy and Practice, 67, pp. 366–380. Available at: <https://doi.org/10.1016/j.tra.2014.08.002\>.
+
+Swinney, P. (2023) The Rise of Hybrid Working. Just How Many Days Are People Working from the Office? Centre for Cities. Available at: <https://www.centreforcities.org/blog/just-how-many-days-are-people-working-from-the-office/#:∼:text=Around%2011%20per%20cent%20of,has%20not%20come%20to%20pass\>.
+
+Transport for London (2020). Written evidence submitted by Transport for London (COR0186). UK Parliament Transport Committee. Available at: <https://committees.parliament.uk/writtenevidence/12882/pdf/\>.
+
+Transport for London (2023). Travel in London 2023: Annual Overview. December 2023. Transport for London. Available at: <https://content.tfl.gov.uk/travel-in-london-2023-annual-overview-acc.pdf\>
+
+Transport for London (2024) Travel in London 2024: Trends in public transport demand and operational performance. \[Report\]. London: Transport for London. Available at: <https://content.tfl.gov.uk/travel-in-london-2024-annual-overview-acc.pdf>.
+
+Transport for London (2025) Station capacity and entry/exit data. \[Dataset\]. Transport for London. Available at: <https://crowding.data.tfl.gov.uk/>.
+
+Trasberg, T. and Cheshire, J. (2023) ‘Spatial and social disparities in the decline of activities during the COVID-19 lockdown in Greater London’, Urban Studies, 60(8), pp. 1427–1447. Available at: <https://doi.org/10.1177/00420980211040409>.
+
+Vickerman, R. (2021) ‘Will Covid-19 put the public back in public transport? A UK perspective’, Transport Policy, 103, pp. 95–102. Available at: <https://doi.org/10.1016/j.tranpol.2021.01.005>.
+
+Warren Liao, T. (2005) ‘Clustering of time series data—a survey’, Pattern Recognition, 38(11), pp. 1857–1874. Available at: <https://doi.org/10.1016/j.patcog.2005.01.025>.
+
+Xu, R. and Wunsch, D. (2005) ‘Survey of clustering algorithms’, IEEE Transactions on Neural Networks, 16(3), pp. 645–678. Available at: <https://doi.org/10.1109/TNN.2005.845141>.
+
+Yuan, Y., Cave, M. and Zhang, C. (2018) ‘Using Local Moran’s I to identify contamination hotspots of rare earth elements in urban soils of London’, Applied Geochemistry, 88, pp. 167–178. Available at: <https://doi.org/10.1016/j.apgeochem.2017.07.011>.
+
+Zhang, C. et al. (2008) ‘Use of local Moran’s I and GIS to identify pollution hotspots of Pb in urban soils of Galway, Ireland’, Science of The Total Environment, 398(1), pp. 212–221. Available at: <https://doi.org/10.1016/j.scitotenv.2008.03.011>.
+
+Zhang, Y. et al. (2021) ‘Discovering the evolution of urban structure using smart card data: The case of London’, Cities, 112, p. 103157. Available at: <https://doi.org/10.1016/j.cities.2021.103157>.
+
+Zhang, Z., Chai, H. and Guo, Z. (2023) ‘Quantitative resilience assessment of the network-level metro rail service’s responses to the COVID-19 pandemic’, Sustainable Cities and Society, 89, p. 104315. Available at: <https://doi.org/10.1016/j.scs.2022.104315>.
+
+Zhou, Y., Wang, F. and Zhou, S. (2023) ‘The Spatial Patterns of the Crime Rate in London and Its Socio-Economic Influence Factors’, Social Sciences, 12(6), p. 340. Available at: <https://doi.org/10.3390/socsci12060340>.
+
+Ziedan, A., Brakewood, C. and Watkins, K. (2023) ‘Will transit recover? A retrospective study of nationwide ridership in the United States during the COVID-19 pandemic’, Journal of Public Transportation, 25, p. 100046. Available at: <https://doi.org/10.1016/j.jpubtr.2023.100046>.

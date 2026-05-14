@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "London Underground Commuting in the Aftermath of COVID-19: Recovery Trends and Spatial Patterns"
+  author: "Duanduan Shen"
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - literature_review.qmd
+    - methodology.qmd
+    - results.qmd
+    - discussion.qmd
+    - conclusion.qmd
+    - bibliography.qmd
+
+number-sections: false
+
+crossref:
+  chapters: false
+
+format:
+  html:
+    theme: solar
+    css: styles.css
