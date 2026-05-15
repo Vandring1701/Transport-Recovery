@@ -15,4 +15,7 @@ Results show that 2021 marked the sharpest decline in Underground demand, with a
 
 The study concludes that while disruption was most acute in 2021, the long-term impact of COVID-19 on Underground demand appears limited. The findings highlight both the vulnerability of central London commuting flows and the value of station-level data for understanding urban resilience.
 
+# Keywords
+
+Spatiotemporal Analysis, Unsupervised Machine Learning (k-means), Spatial Autocorrelation, Urban Mobility
 
